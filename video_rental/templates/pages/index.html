@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+	<div class="row mt-5">
+		<div class="col-md-6 offset-md-3">
+			<div class ="card shadow"> 
+				<div class ="card-body text-center"> 
+					<h1>Welcome To Sumit Movie Store</h1> 
+					<p>This is an example of Movie Rental App</p> 
+					<a class ="btn btn-dark" href ="{% url 'movies:index' %}"> 
+						View Available Movies</a> 
+				</div> 
+			</div> 
+		</div>
+	</div>
+{% endblock %}
